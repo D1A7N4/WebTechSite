@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: deeppink;
+}
+header::after{
+    content: '';
+    display:table;
+    clear: both;
+} /*clears header dissapearing issue*/
+.logo{
+    float:left
+} /*logo align left*/
+nav{
+    float:right
+} /*nav menu align right*/
+nav ul{
+    margin:  0;
+    padding: 0;
+    list-style: none;
+} /*header list tidying*/
+nav li{
+    display: inline-block;
+    margin: 0 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} /*header item positioning*/
+nav a{
+    color: cyan;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold ;
+} /*header item styling*/
+nav a:hover{
+    color: black;
+} /*header item hover behaviour*/
