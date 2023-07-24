@@ -53,3 +53,18 @@ nav a:hover{
 .item{
     margin-left: 20px;
 }
+.recipe img{
+    float: right;
+}
+.nutrition{
+position: absolute;
+}
+.cheeseburger{
+    min-height: 950px;
+}
+.hummus{
+    min-height: 530px;
+}
+.cookie{
+    min-height: 590px;
+}
